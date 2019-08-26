@@ -7,13 +7,6 @@ public class ConcreteProduct implements Product {
         System.out.println("Yaayks! Me a flyING!");
     }
 
-    @Override
-    public int add(String numbers) {
-        int finalNum = 0;
-        String[]  num = numbers.split(",");
-        for(String iter : num){
-            finalNum += Integer.parseInt(iter);
-        }
-        return finalNum;
-    }
+    public ConcreteProduct(){}
+
 }
